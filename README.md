@@ -1,4 +1,6 @@
 # STATS202HW
+*Duke Kunshan University STATS 202 HW2*
+
 
 # 🧠 Predicting Student Math Performance with Regression Models
 
@@ -15,29 +17,29 @@ This project explores how student demographic, behavioral, and academic features
 
 ## 📂 Dataset
 
-The dataset was sourced from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Student+Performance) and includes the following:
+The dataset was sourced from course's instructor and includes the following:
 - **Demographic features**: age, gender, parental education, family size.
 - **Academic features**: study time, previous failures, midterm scores.
 - **Behavioral features**: absences, free time, alcohol consumption, extracurricular participation.
 
 ## 🛠️ Methods
 
-1. **Data Preprocessing**:
+1. **Exploratory Data Analysis**:
+   - Plotted the distribution of final grades.
+   - Generated a heatmap to visualize correlations among numerical features.
+
+2. **Data Preprocessing & Feature Engineering**:
    - Removed missing values for target (`final`) grade.
    - Encoded binary and categorical features using manual mappings and one-hot encoding.
    - Combined parental education into a new feature `parent_edu`.
    - Normalized features and target variable using `MinMaxScaler`.
-
-2. **Exploratory Data Analysis**:
-   - Plotted the distribution of final grades.
-   - Generated a heatmap to visualize correlations among numerical features.
 
 3. **Model Training**:
    - Compared **Linear Regression** and **Ridge Regression**.
    - Evaluated models based on Mean Squared Error (MSE) and R² Score.
 
 4. **Model Selection**:
-   - Selected **Ridge Regression** for its superior R² (0.6276 vs. 0.6110).
+   - Selected **Ridge Regression** for its superior R².
 
 5. **Visualization**:
    - Created a scatter plot comparing true vs. predicted scaled final grades.
@@ -50,9 +52,9 @@ The dataset was sourced from [UCI Machine Learning Repository](https://archive.i
   - **R²**: 0.6276
 - The model performs best for high-performing students, with some underestimation in the middle score range.
 
-![Final Grade Distribution](./images/final_distribution.png)
-![Correlation Heatmap](./images/correlation_heatmap.png)
-![Predicted vs True](./images/pred_vs_true.png)
+![Final Grade Distribution](./sportlight/distribution.png)
+![Correlation Heatmap](./sportlight/correlation_heat_map.png)
+![Predicted vs True](./main/sportlight/prediction.png)
 
 ## 💡 Future Work
 
@@ -60,11 +62,4 @@ The dataset was sourced from [UCI Machine Learning Repository](https://archive.i
 - Include more **psychosocial features** (motivation, school support).
 - Apply **cross-validation** and hyperparameter tuning for model robustness.
 - Investigate **temporal performance trends** (if multi-year data is available).
-
-## 🧾 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/student-grade-prediction.git
-   cd student-grade-prediction
 
