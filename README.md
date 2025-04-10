@@ -51,10 +51,27 @@ The dataset was sourced from course's instructor and includes the following:
   - **MSE**: 0.0191
   - **R²**: 0.6276
 - The model performs best for high-performing students, with some underestimation in the middle score range.
+  
+<p align="center">
+  <img src="sportlight/distribution.png" alt="Sample Image" width="350"/>
+</p>
+<p align="center">
+  <em>Figure 1: Distribution of Final Grades.</em>
+</p>
 
-![Final Grade Distribution](./sportlight/distribution.png)
-![Correlation Heatmap](./sportlight/correlation_heat_map.png)
-![Predicted vs True](./main/sportlight/prediction.png)
+<p align="center">
+  <img src="sportlight/correlation_heat_map.png" alt="Sample Image" width="350"/>
+</p>
+<p align="center">
+  <em>Figure 2: Correlation Heatmap of Numeric Features.</em>
+</p>
+
+<p align="center">
+  <img src="sportlight/prediction.png" alt="Sample Image" width="350"/>
+</p>
+<p align="center">
+  <em>Figure 3: Predicted vs. True Final Grades (Ridge Regression).</em>
+</p>
 
 ## 💡 Future Work
 
