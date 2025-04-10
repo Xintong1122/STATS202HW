@@ -2,7 +2,7 @@
 *Duke Kunshan University STATS 202 HW2*
 
 
-# 🧠 Predicting Student Math Performance with Regression Models
+## 🧠 Predicting Student Math Performance with Regression Models
 
 This project explores how student demographic, behavioral, and academic features can be used to predict final math grades using machine learning techniques. The goal is to understand key drivers of academic success and build a predictive model to support early intervention.
 
