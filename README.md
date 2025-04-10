@@ -53,21 +53,21 @@ The dataset was sourced from course's instructor and includes the following:
 - The model performs best for high-performing students, with some underestimation in the middle score range.
   
 <p align="center">
-  <img src="sportlight/distribution.png" alt="Sample Image" width="350"/>
+  <img src="sportlight/distribution.png" alt="Sample Image" width="500"/>
 </p>
 <p align="center">
   <em>Figure 1: Distribution of Final Grades.</em>
 </p>
 
 <p align="center">
-  <img src="sportlight/correlation_heat_map.png" alt="Sample Image" width="350"/>
+  <img src="sportlight/correlation_heat_map.png" alt="Sample Image" width="500"/>
 </p>
 <p align="center">
   <em>Figure 2: Correlation Heatmap of Numeric Features.</em>
 </p>
 
 <p align="center">
-  <img src="sportlight/prediction.png" alt="Sample Image" width="350"/>
+  <img src="sportlight/prediction.png" alt="Sample Image" width="500"/>
 </p>
 <p align="center">
   <em>Figure 3: Predicted vs. True Final Grades (Ridge Regression).</em>
